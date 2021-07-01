@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> <!-- Iconscout unicons -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <script defer src="assets/js/swiper-bundle.min.js"></script>
+    <script defer src="assets/js/main.js"></script>
+
+     
+
+    <title>SSDC - SLIET</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">SSDC</a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list grid">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">
+                            <i class="uil uil-estate nav-icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <i class="uil uil-user nav-icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            <i class="uil uil-file-alt nav-icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#activities" class="nav-link">
+                            <i class="uil uil-users-alt nav-icon"></i> Activities
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#member" class="nav-link">
+                            <i class="uil uil-scenery nav-icon"></i> Members
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class="uil uil-message nav-icon"></i> Contact Us
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav-close" id="nav-close"></i>
+            </div>
+            <div class="nav-btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-content grid">
+                    <div class="home-social">
+                        <a href="#" target="_blank" class="home-social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="#" target="_blank" class="home-social-icon">
+                            <i class="uil uil-github-alt"></i>                          
+                        </a>
+                        <a href="#" target="_blank" class="home-social-icon">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                    </div>
+
+                    <div class="home-img">
+                        <!-- <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="home-blob-img" x=10 y=15 href="assets/img/profile.png"/>
+                            </g>
+                        </svg> -->
+                        <!-- <svg class="home-blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M67.3,-38.7C80.4,-16,79.7,14.8,66.1,37.7C52.6,60.6,26.3,75.7,-0.1,75.7C-26.5,75.8,-53,60.9,-65.7,38.4C-78.4,16,-77.3,-14,-64,-36.7C-50.8,-59.4,-25.4,-74.8,0.8,-75.3C27.1,-75.8,54.1,-61.3,67.3,-38.7Z" transform="translate(100 100)" />
+                            <image class="home-blob-img" x=30 y=20 href="assets/img/SSDC_-png.png"/>
+                        </svg> -->
+
+                        <!--<svg class="home-blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M40.1,-68.9C53.5,-61.8,67,-54.1,74.6,-42.5C82.3,-30.9,84.2,-15.5,82.5,-1C80.7,13.4,75.2,26.8,68.7,40.4C62.1,54,54.6,67.7,43,75.4C31.4,83,15.7,84.6,1.1,82.7C-13.4,80.7,-26.8,75.2,-38.5,67.5C-50.2,59.9,-60.2,50.2,-68.2,38.6C-76.2,27,-82.1,13.5,-82.4,-0.1C-82.6,-13.8,-77.2,-27.6,-68.8,-38.5C-60.4,-49.5,-49.2,-57.6,-37.2,-65.5C-25.3,-73.4,-12.6,-81.2,0.4,-81.8C13.4,-82.5,26.8,-76,40.1,-68.9Z" transform="translate(100 100)" />
+                            <image class="home-blob-img" x=30 y=20 href="assets/img/SSDC_-png.png"/>
+                        </svg> -->
+
+                        <img src="assets/img/SSDC_-png.png" alt="">
+                    </div>
+
+                    <div class="home-data">
+                        <h1 class="home-title">Hello, We are SSDC</h1>
+                        <h3 class="home-subtitle">Software Developers</h3>
+                        <p class="home-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe ducimus quam maxime, temporibus sapiente laboriosam quidem quod? Dolorum, laboriosam.</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Us <i class="uil uil-message button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home-scroll">
+                    <a href="#about" class="home-scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home-scroll-mouse"></i>
+                        <span class="home-scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home-scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section-title">About Us</h2>
+            <span class="section-subtitle">Our introduction</span>
+
+            <div class="about-container container grid">
+                <img src="assets/img/group.jpg" alt="" class="about-img">
+                <div class="about-data">
+                    <p class="about-description">
+                        SLIET Software Development Club (SSDC), is a Departmental Club of Computer Science & Engineering, SLIET Longowal. This club was founded by CSE - 2017 undergrads. The team currently comprises of 40+ developers. The team aims to brush up the coding skills in young enthusiasts, with major  goals to crack the latest Coding Contests, Challenges & Interviews without any reluctance landing them in some decent technical job prospects. In due course of grooming it's pupils, the club focuses on project-oriented approach in diverse (Web Development, App Development, Machine Learning, Cybersecurity, etc) to ensure holistic development of it's members. Furthermore, the club organises workshops and monthly coding compitions for college students as well which in turn helps us discover young wizards in IT fields.  
+                    </p>
+
+                    <div class="about-info">
+                        <div>
+                            <span class="about-info-title">04+</span>
+                            <span class="about-info-name">Years <br> experience</span>
+                        </div>
+                        <div>
+                            <span class="about-info-title">10+</span>
+                            <span class="about-info-name">Projects <br> worked</span>
+                        </div>
+                    </div>
+
+                    <div class="about-buttons">
+                        <a download="" href="" class="button button--flex">
+                            Download CVs <i class="uil uil-download-alt button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <span class="section-subtitle">Our Technical Level</span>
+            <div class="skills-container container grid">
+                <div>
+                    <!-- First Skill -->
+                    <div class="skills-content skills-open">
+                        <div class="skills-header">
+                            <i class="uil uil-brackets-curly skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Frontend Development</h1>
+                                <span class="skills-subtitle">More than 3 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">HTML</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">CSS</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Javascript</h3>
+                                    <span class="skills-number">70%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-js"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">React</h3>
+                                    <span class="skills-number">85%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-react"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Second Skill -->
+                    <div class="skills-content skills-close">
+                        <div class="skills-header">
+                            <i class="uil uil-server-network skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Backend Development</h1>
+                                <span class="skills-subtitle">More than 2 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">PHP</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-php"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Node Js</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-node"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">SQL</h3>
+                                    <span class="skills-number">70%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-sql"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">MongoDB</h3>
+                                    <span class="skills-number">85%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-mongodb"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Third Skill -->
+                    <div class="skills-content skills-close">
+                        <div class="skills-header">
+                            <i class="uil uil-robot skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Data Science</h1>
+                                <span class="skills-subtitle">More than 2 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Python</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-python"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Django</h3>
+                                    <span class="skills-number">70%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-django"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">TensorFlow</h3>
+                                    <span class="skills-number">85%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-tensor"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section" id="activities">
+            <h2 class="section-title">Activities</h2>
+            <span class="section-subtitle">What we offer</span>
+            <div class="services-container container grid">
+                <!-- Workshops -->
+                <div class="services-content">
+                    <div>
+                        <i class="uil uil-book-open services-icon"></i>
+                        <h3 class="services-title">Workshops</h3>
+                    </div>
+    
+                    <span class="button button--flex button--small button--link services-button">
+                        View more
+                        <i class="uil uil-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="services-model">
+                        <div class="services-model-content">
+                            <h4 class="services-model-title">Workshops</h4>
+                            <i class="uil uil-times services-model-close"></i>
+                            <ul class="services-model-services grid">
+                                <li class="services-model-service">
+                                    <i class="uil uil-check-circle services-model-icon"></i>
+                                    <p>C Programming Language Workshop</p>
+                                </li>
+                                <li class="services-model-service">
+                                    <i class="uil uil-check-circle services-model-icon"></i>
+                                    <p>Python Programming Workshop</p>
+                                </li>
+                                <li class="services-model-service">
+                                    <i class="uil uil-check-circle services-model-icon"></i>
+                                    <p>Cyber security Workshop</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contest -->
+                <div class="services-content">
+                    <div>
+                        <i class="uil uil-arrow services-icon"></i>
+                        <h3 class="services-title">Coding <br> Contests</h3>
+                    </div>
+    
+                    <span class="button button--flex button--small button--link services-button">
+                        View more
+                        <i class="uil uil-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="services-model">
+                        <div class="services-model-content">
+                            <h4 class="services-model-title">Recent <br> Contest <br> Winners</h4>
+                            <i class="uil uil-times services-model-close"></i>
+                            <ul class="services-model-services grid">
+                                <li class="services-model-service">
+                                    <i class="uil uil-award services-model-icon"></i>
+                                    <p>Rahul Kumar</p>
+                                </li>
+                                <li class="services-model-service">
+                                    <i class="uil uil-award services-model-icon"></i>
+                                    <p>Ghanshyam Das</p>
+                                </li>
+                                <li class="services-model-service">
+                                    <i class="uil uil-award services-model-icon"></i>
+                                    <p>XYZ</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Faculty Members -->
+        <section class="member section">
+            <h2 class="section-title">Faculty Members</h2>
+            <span class="section-subtitle">SLIET Officials</span>
+
+            <div class="member-container container swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="member-content swiper-slide">
+                        <div class="member-data">
+                            <div class="member-header">
+                                <img src="assets/img/teachers/Sachan.png" alt="" class="member-img">
+                                <div>
+                                    <h3 class="member-name">Manoj Sachan</h3>
+                                    <span class="member-post">Head of Department</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="uil uil-linkedin-alt member-icon"></i>
+                                <i class="uil uil-facebook-f member-icon"></i>
+                                <i class="uil uil-instagram member-icon"></i>
+                            </div>
+                        </div>
+                        <p class="member-description">Professor Manoj Sachan is the faculty Advisor of Sliet software development club.</p>
+                    </div>
+
+                    <div class="member-content swiper-slide">
+                        <div class="member-data">
+                            <div class="member-header">
+                                <img src="assets/img/teachers/Rahul.png" alt="" class="member-img">
+                                <div>
+                                    <h3 class="member-name">Rahul Gautam</h3>
+                                    <span class="member-post">Assistance Professor</span>
+                                </div>
+                            </div>
+                            <div>
+                                <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                            </div>
+                        </div>
+                        <p class="member-decription">Professor Rahul Gautam is the co-faculty advisor of sliet software development club.</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-member"></div>
+            </div>
+        </section>
+
+        <!-- Mentors -->
+        <section class="member section">
+            <h2 class="section-title">Mentors</h2>
+            <span class="section-subtitle">SLIET Officials</span>
+
+            <div class="member-container container swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="member-content swiper-slide">
+                        <div class="member-data">
+                            <div class="member-header">
+                                <img src="assets/img/mentors/SHAILENDRA.png" alt="" class="member-img">
+                                <div>
+                                    <h3 class="member-name">Shailendra Kumar</h3>
+                                    <span class="member-post">Research Scholar</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="uil uil-linkedin-alt member-icon"></i>
+                                <i class="uil uil-facebook-f member-icon"></i>
+                                <i class="uil uil-instagram member-icon"></i>
+                            </div>
+                        </div>
+                        <p class="member-description">Shailendra Kumar is the team mentor of Sliet software development club.</p>
+                    </div>
+
+                    <div class="member-content swiper-slide">
+                        <div class="member-data">
+                            <div class="member-header">
+                                <img src="assets/img/mentors/Arvind.png" alt="" class="member-img">
+                                <div>
+                                    <h3 class="member-name">Arvind Kumar</h3>
+                                    <span class="member-post">Research Scholar</span>
+                                </div>
+                            </div>
+                            <div>
+                                <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                            </div>
+                        </div>
+                        <p class="member-decription">Arvind Kumar is the team mentor of sliet software development club.</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-member"></div>
+            </div>
+        </section>
+
+        <!-- Founders -->
+        <section class="member section">
+            <h2 class="section-title">Founders</h2>
+            <span class="section-subtitle">Big Brains</span>
+
+            <div class="member-container container swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="member-content swiper-slide">
+                        <div class="member-data">
+                            <div class="member-header">
+                                <img src="assets/img/founders/Satyam.png" alt="" class="member-img">
+                                <div>
+                                    <h3 class="member-name">Satyam Mittal</h3>
+                                    <span class="member-post">Founder</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="uil uil-linkedin-alt member-icon"></i>
+                                <i class="uil uil-facebook-f member-icon"></i>
+                                <i class="uil uil-instagram member-icon"></i>
+                            </div>
+                        </div>
+                        <p class="member-description">Satyam Mittal is a software Engineer at PAYTM and founder of Sliet software development club.</p>
+                    </div>
+
+                    <div class="member-content swiper-slide">
+                        <div class="member-data">
+                            <div class="member-header">
+                                <img src="assets/img/founders/Pratyush.png" alt="" class="member-img">
+                                <div>
+                                    <h3 class="member-name">Pratyush <br> Vikram Singh</h3>
+                                    <span class="member-post">Founder</span>
+                                </div>
+                            </div>
+                            <div>
+                                <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                            </div>
+                        </div>
+                        <p class="member-decription">Pratyush Vikram Singh is a senior Business Development Associate at BYJU'S and founder of sliet software development club.</p>
+                    </div>
+
+                    <div class="member-content swiper-slide">
+                        <div class="member-data">
+                            <div class="member-header">
+                                <img src="assets/img/founders/Alam.png" alt="" class="member-img">
+                                <div>
+                                    <h3 class="member-name">Muzzammil <br> Alam</h3>
+                                    <span class="member-post">Founder</span>
+                                </div>
+                            </div>
+                            <div>
+                                <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                            </div>
+                        </div>
+                        <p class="member-decription">Muzzammil Alam is an analyst at AXTRIA and founder of sliet software development club.</p>
+                    </div>
+
+                    <div class="member-content swiper-slide">
+                        <div class="member-data">
+                            <div class="member-header">
+                                <img src="assets/img/founders/Tanvir.png" alt="" class="member-img">
+                                <div>
+                                    <h3 class="member-name">Tanvir Singh</h3>
+                                    <span class="member-post">Founder</span>
+                                </div>
+                            </div>
+                            <div>
+                                <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                            </div>
+                        </div>
+                        <p class="member-decription">Tanvir Singh is business consultants at JUNGLEWORKS and founder of sliet software development club.</p>
+                    </div>
+
+                    <div class="member-content swiper-slide">
+                        <div class="member-data">
+                            <div class="member-header">
+                                <img src="assets/img/founders/Aditya.png" alt="" class="member-img">
+                                <div>
+                                    <h3 class="member-name">Aditya Prakash</h3>
+                                    <span class="member-post">Co-Founder</span>
+                                </div>
+                            </div>
+                            <div>
+                                <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                            </div>
+                        </div>
+                        <p class="member-decription">Aditya Prakash is a Backend Developer at 8am.io and co-founder of sliet software development club.</p>
+                    </div>
+
+                    <div class="member-content swiper-slide">
+                        <div class="member-data">
+                            <div class="member-header">
+                                <img src="assets/img/founders/Akshay.png" alt="" class="member-img">
+                                <div>
+                                    <h3 class="member-name">Akshay Tyagi</h3>
+                                    <span class="member-post">Co-Founder</span>
+                                </div>
+                            </div>
+                            <div>
+                                <a href=""><i class="uil uil-linkedin-alt member-icon"></i></a>
+                                <a href=""><i class="uil uil-facebook-f member-icon"></i></a>
+                                <a href=""><i class="uil uil-instagram member-icon"></i></a>
+                            </div>
+                        </div>
+                        <p class="member-decription">Akshay Tyagi teaches physical chemistry at ALLEN Career Institute and co-founder of sliet software development club.</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-member"></div>
+            </div>
+        </section>
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <span class="section-subtitle">Get In Touch</span>
+
+            <div class="contact-container container grid">
+                <div>
+                    <div class="contact-information">
+                        <i class="uil uil-phone contact-icon"></i>
+                        <div>
+                            <h3 class="contact-title">Call Us</h3>
+                            <span class="contact-subtitle">+91-8697109010, +91-12334567891</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-information">
+                        <i class="uil uil-envelope contact-icon"></i>
+                        <div>
+                            <h3 class="contact-title">Email</h3>
+                            <span class="contact-subtitle">sliet.ssdc@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-information">
+                        <i class="uil uil-map-marker contact-icon"></i>
+                        <div>
+                            <h3 class="contact-title">Location</h3>
+                            <span class="contact-subtitle">CSE Department, SLIET Longowal, Sangrur</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact-form grid">
+                    <div class="contact-inputs grid">
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Name</label>
+                            <input type="text" class="contact-input">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Email</label>
+                            <input type="email" class="contact-input">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Phone</label>
+                            <input type="text" class="contact-input">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact-input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-bg">
+            <div class="footer-container container grid">
+                <div>
+                    <h1 class="footer-title">SSDC</h1>
+                    <span class="footer-subtitle">Hive of Developers</span>
+                </div>
+
+                <ul class="footer-links">
+                    <li>
+                        <a href="#activities" class="footer-link">Activities</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer-link">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="footer-socials">
+                    <a href="" class="footer-social" target="_blank">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="" class="footer-social" target="_blank">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer-copy">&#169; SSDC. All right reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup-icon"></i>
+    </a>
+</body>
+</html>
