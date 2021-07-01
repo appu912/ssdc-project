@@ -10,7 +10,7 @@
 
     <script defer src="assets/js/swiper-bundle.min.js"></script>
     <script defer src="assets/js/main.js"></script>
-
+    <script defer src="assets/js/mailto.js"></script>
      
 
     <title>SSDC - SLIET</title>
@@ -658,26 +658,26 @@
                     <div class="contact-inputs grid">
                         <div class="contact-content">
                             <label for="" class="contact-label">Name</label>
-                            <input type="text" class="contact-input">
+                            <input type="text" class="contact-input" id="name">
                         </div>
                         <div class="contact-content">
                             <label for="" class="contact-label">Email</label>
-                            <input type="email" class="contact-input">
+                            <input type="email" class="contact-input" id="email">
                         </div>
                         <div class="contact-content">
                             <label for="" class="contact-label">Phone</label>
-                            <input type="text" class="contact-input">
+                            <input type="text" class="contact-input" id="phone">
                         </div>
                         <div class="contact-content">
                             <label for="" class="contact-label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact-input"></textarea>
+                            <textarea name="" cols="0" rows="7" class="contact-input" id="message"></textarea>
                         </div>
 
                         <div>
-                            <a href="#" class="button button--flex">
+                            <button class="button button--flex" id="send-btn">
                                 Send Message
                                 <i class="uil uil-message button-icon"></i>
-                            </a>
+                            </button>
                         </div>
                     </div>
                 </form>
