@@ -1042,6 +1042,9 @@ img {
         grid-template-columns: repeat(3 , 238px);
     }
 
+    .member-description {
+        padding-top: 2rem;
+    }
     .contact-form {
         width: 460px;
     }
